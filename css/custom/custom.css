@@ -1,0 +1,140 @@
+@charset="UTF=8";
+
+.eye_catch_message{
+	
+	color: white;
+	text-align:center;
+
+	height: 650px;
+	line-height: 600px;
+
+	font-size: 100px;
+	margin: 0;
+	padding: 0;
+}
+/*
+.eye_catch_message2{
+	
+	color: white;
+	text-align:center;
+
+	height: 290px;
+	line-height: 450px;
+
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+}
+.eye_catch_message3{
+	color: white;
+	text-align:center;
+	font-size: 100px;
+}
+*/
+
+
+.box_title_odd{
+	color: black;
+	text-align: center;
+	margin: 0;
+	padding-top:10px;
+	font-size: 45px;
+}
+
+.box_title_even{
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding-top:10px;
+	font-size: 45px;
+}
+
+/****** box1 ******/
+
+.box1{
+	margin-top:30px;
+	padding: 0px 20px;
+	height: auto;
+}
+
+.inbox1-1{
+	height: auto;
+}
+
+.box1-img, .box2-img, .box3-img, .box4-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+.box1-message{
+	padding: 20px 0;
+	font-size: 15px;
+	text-align:center;
+	color:#111;
+	font-family:'Gulim';
+}
+
+/****** box2 ******/
+
+.box2-message, .box4-message{
+	padding: 20px 0;
+	font-size: 15px;
+	text-align:center;
+	color:#fff;
+	font-family:'Gulim';
+}
+
+
+#box1_house{
+	margin-bottom:50px;
+}
+
+/****** box3 ******/
+
+.inbox3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/****** box4 ******/
+
+/****** box5 ******/
+
+.box5{
+	margin-top:30px;
+}
+
+.box5-form{
+	opacity: 0.7; background-color:white;color:black;
+}
+
+
+.box5form{
+	margin-bottom:30px;
+}
+
+.box5_btn{
+
+}
+/****** box6 ******/
+.box6{
+	margin-top:30px;
+}
+
+.social-wrapper{
+	background-color: rgba( 256, 256, 256,.75);
+	padding:10px;
+	margin-bottom:40px;
+	border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+

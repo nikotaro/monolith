@@ -1,0 +1,52 @@
+@charset="UTF=8";
+
+body {
+
+  background-image: url(../../img/background/6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.header{
+	background-color: rgba( 1, 1, 1, 1.0);
+  height: 50px;
+}
+
+.footer{
+	background-color: rgba( 1, 1, 1, 0.7);
+	width: 100%;
+}
+
+p.copyright {
+    padding: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    color: rgba(256,256,256,1)
+}
+
+.content{
+  margin-top: 50px;
+}
+
+.eye_catch{
+  height: 700px;
+  background-color: rgba( 1, 1, 1, .50);
+}
+
+.rectangle{
+  min-height: 400px;
+  height: auto;
+}
+
+.odd_rect{
+  background-color: rgba( 256, 256, 256, .75);
+  height: auto;
+}
+
+.even_rect{
+  background-color: rgba( 1, 1, 1, .40);
+}
