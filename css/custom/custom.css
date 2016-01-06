@@ -1,7 +1,7 @@
 @charset="UTF=8";
 
 .eye_catch_message{
-	
+
 	color: white;
 	text-align:center;
 
@@ -14,7 +14,7 @@
 }
 /*
 .eye_catch_message2{
-	
+
 	color: white;
 	text-align:center;
 
@@ -129,12 +129,10 @@
 	border-radius:5px;
 }
 
-
-
-
-
-
-
-
-
-
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
