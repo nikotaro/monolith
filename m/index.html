@@ -38,10 +38,10 @@
     <!-- mobile redirect -->
     <script type="text/javascript">
       (function(){
-        var ua = navigator.userAgent.toUpperCase();
-        if(ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1)){
-            location.href = '/m/';
-        }
+      var ua = navigator.userAgent.toUpperCase();
+      if(!(ua.indexOf('IPHONE') != -1 || (ua.indexOf('ANDROID') != -1 && ua.indexOf('MOBILE') != -1))){
+          location.href = 'http://monolith.tech';
+      }
       }());
     </script>
   </head>
@@ -66,9 +66,7 @@
               <span class="icon-bar"></span><!-- 1 -->
               <span class="icon-bar"></span><!-- 2 -->
               <span class="icon-bar"></span><!-- 3 -->
-              <span class="icon-bar"></span><!-- 4 -->
-              <span class="icon-bar"></span><!-- 5 -->
-              <span class="icon-bar"></span><!-- 6 -->
+              
             </button>
             <div class="navbar-brand">
               <a href="http://monolith.tech"><img class="nav-logo" src="img/logo/logo-e2.png" alt="logo"></a>
@@ -76,7 +74,7 @@
           </div><!-- navbar-header -->
 
           <div class="collapse navbar-collapse target">
-            <ul class="nav navbar-nav navbar-right ">
+            <ul class="nav navbar-nav navbar-right " style="background-color:black">
               <li>
                 <a href="#about" class="lfont300">About</a>
               </li>
@@ -104,7 +102,7 @@
       <div class="content">
         <div class="eye_catch lfont100">
           <!--<h1 class="eye_catch_message">Monolith</h1>-->
-          <h1 class="eye_catch_message"><img src="img/monolith3.png" width="700"></h1>
+          <h1 class="eye_catch_message"><img src="img/monolith3.png" width="70%"></h1>
           <!--<h4 class="eye_catch_message2">StartUpHouse</h4><h1 class="eye_catch_message3">Monolith</h1>-->
         </div><!-- eye_catch -->
         <div class="rectangle odd_rect" id="about"><!-- Number.1 -->
@@ -113,9 +111,9 @@
             <div class="col-md-12">
               <div class="col-md-4 box1">
                 <div class="inbox1-1">
-                  <img src="img/box1/home.png" width="150px;" class="box1-img" id="box1_house">
+                  <img src="img/box1/home.png" width="70%;" class="box1-img" id="box1_house">
                   <div class="box1-message">
-                    <p class="nfont100" >monolithは、起業家のためのシェアハウスです。<br/>住人は3人は、全て起業家です。<br/>4DLKのうち3部屋が居住スペース、<br/>リビングがワーキングスペース、<br/>残り1部屋がゲストスペースになっています。
+                    <p class="nfont100" >monolithは、起業家のためのシェアハウスです。住人3人は、全て起業家です。4DLKのうち3部屋が居住スペース、リビングがワーキングスペース、残り1部屋がゲストスペースになっています。
                     </p>
                   </div>
 
@@ -123,17 +121,17 @@
               </div><!-- box1 -->
               <div class="col-md-4 box1">
                 <div class="inbox1-1">
-                  <img src="img/box1/coworking.png" width="200px;" class="box1-img">
+                  <img src="img/box1/coworking.png" width="70%;" class="box1-img">
                   <div class="box1-message">
-                    <p class="nfont100">起業家、起業準備中の人、起業志望家、<br/>起業に興味がある人、起業家を支援したい人、<br/>起業家とともに仕事をしたい人は、<br/>自由にワーキングスペースを使用することが<br/>できます。</p>
+                    <p class="nfont100">起業家、起業準備中の人、起業志望家、起業に興味がある人、起業家を支援したい人、起業家とともに仕事をしたい人は、自由にワーキングスペースを使用することができます。</p>
                   </div>
                 </div><!-- inbox1-1 -->
               </div><!-- box1 -->
               <div class="col-md-4 box1">
                 <div class="inbox1-1">
-                  <img src="img/box1/meeting.png" width="150px;" class="box1-img">
+                  <img src="img/box1/meeting.png" width="70%;" class="box1-img">
                   <div class="box1-message">
-                    <p class="nfont100" style="padding-top:50px;">同フェーズの起業家とのディスカッションや<br/>ときたまふらっとやってくる先輩起業家の<br/>即興メンタリングを通して、<br/>事業をブラッシュアップしたり、<br/>加速させることができます。<br/></p>
+                    <p class="nfont100" style="padding-top:50px;">同フェーズの起業家とのディスカッションやときたまふらっとやってくる先輩起業家の即興メンタリングを通して、事業をブラッシュアップしたり、加速させることができます。</p>
                   </div>
                 </div><!-- inbox1-1 -->
               </div><!-- box1 -->
@@ -147,26 +145,26 @@
             <div class="col-md-12">
               <div class="col-md-4 box1">
                 <div class="inbox1-1">
-                  <img src="img/box2/nishimoto.jpg" width="300px;" height="300px;" class="box2-img">
+                  <img src="img/box2/nishimoto.jpg" width="70%;" height=";" class="box2-img">
                   <div class="box2-message">
-                    <p class="lfont100" style="font-weight:400">Toshihiro Nishimoto<br/><a href="http://www.nolem.jp/" style="text-decoration:none;color:white;">Nolem, Inc</a>  -  Founder &amp; CEO</p>
+                    <p class="lfont100" style="font-weight:400">Toshihiro Nishimoto<br/>Nolem, Inc  -  Founder &amp; CEO</p>
                   </div>
 
                 </div><!-- inbox1-1 -->
               </div><!-- box1 -->
               <div class="col-md-4 box1">
                 <div class="inbox1-1">
-                  <img src="img/box2/urashima.jpg" width="300px;" height="300px;" class="box2-img">
+                  <img src="img/box2/urashima.jpg" width="70%;" height=";" class="box2-img">
                   <div class="box2-message">
-                    <p class="lfont100" style="font-weight:400">Masaaki Urashima<br/><a href="http://www.crewbase.co/" style="text-decoration:none;color:white;">Crewbase, Inc</a>   -  Founder</p>
+                    <p class="lfont100" style="font-weight:400">Masaaki Urashima<br/>Crewbase, Inc   -  Founder</p>
                   </div>
                 </div><!-- inbox1-1 -->
               </div><!-- box1 -->
               <div class="col-md-4 box1">
                 <div class="inbox1-1">
-                  <img src="img/box2/enno.png" width="300px;" height="300px;" class="box2-img">
+                  <img src="img/box2/enno.png" width="70%;" height=";" class="box2-img">
                   <div class="box2-message">
-                    <p class="lfont100" style="font-weight:400">Hiroki Enno<br/><a href="http://tworhythm.jpn.org/" style="text-decoration:none;color:white;">tworhythm</a>  -  Founder</p>
+                    <p class="lfont100" style="font-weight:400">Hiroki Enno<br/>tworhythm  -  Founder</p>
                   </div>
                 </div><!-- inbox1-1 -->
               </div><!-- box1 -->
@@ -177,21 +175,21 @@
         <div class="rectangle odd_rect" id="house"><!-- Number.3 -->
           <h2 class="box_title_odd lfont400">- House -</h2>
           <div class="container">
-              <div class="col-md-12">
-                <div class="col-md-2"><img src="img/box3/pc.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/book1.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/room.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/sofa.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/desk2.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/delta.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
+              <div class="col-sm-12">
+                <div class="col-sm-2"><img src="img/box3/pc.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/book1.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/room.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/sofa.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/desk2.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/delta.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
               </div><!-- col-md-12 -->
-              <div class="col-md-12">
-                <div class="col-md-2"><img src="img/box3/diningdesk.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/book2.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/oculus.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/building.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/kitchen.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
-                <div class="col-md-2"><img src="img/box3/kyotouni.png" width="150px;" height="150px;" class="box3-img inbox3"></div>
+              <div class="col-sm-12">
+                <div class="col-sm-2"><img src="img/box3/diningdesk.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/book2.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/oculus.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/building.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/kitchen.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
+                <div class="col-sm-2"><img src="img/box3/kyotouni.png" width="70%;" height="70%;" class="box3-img inbox3"></div>
               </div><!-- col-md-12 -->
 
           </div><!-- container -->
@@ -232,7 +230,7 @@
             <!--</div>--><!-- col-md-12 -->
           <!--</div>--><!-- container -->
 
-        </div><!-- rectangle Number.4 -->
+        <!--</div>--><!-- rectangle Number.4 -->
 
         <!--<div class="rectangle odd_rect" id="contact">--><!-- Number.5 -->
           <!--<h2 class="box_title_odd lfont400">- Contact -</h2>
@@ -286,23 +284,15 @@
         <div class="rectangle odd_rect" style="padding-bottom:30px;height:730px;"><!-- Number.5 -->
               <h2 class="box_title_odd lfont400">- Access -</h2>
             <div class="col-md-12" >
-                <div class="col-md-12">
-                    <div class="col-md-12">
-                <div class="col-md-12">
-                    <div class="col-md-12">
-                        <div class="ggmap">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d816.7317340446683!2d135.7824167291756!3d35.03355769689004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010851aac3602f%3A0x9ab990c335c79b1a!2z44CSNjA2LTgyMjEg5Lqs6YO95bqc5Lqs6YO95biC5bem5Lqs5Yy655Sw5Lit6KW_5qiL44OO5Y-j55S677yX77yY4oiS77yRIOOCt-ODnuODoOODqeODk-ODqw!5e0!3m2!1sja!2sjp!4v1452074793866" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
+              <div class="ggmap">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d816.7317340446683!2d135.7824167291756!3d35.03355769689004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010851aac3602f%3A0x9ab990c335c79b1a!2z44CSNjA2LTgyMjEg5Lqs6YO95bqc5Lqs6YO95biC5bem5Lqs5Yy655Sw5Lit6KW_5qiL44OO5Y-j55S677yX77yY4oiS77yRIOOCt-ODnuODoOODqeODk-ODqw!5e0!3m2!1sja!2sjp!4v1452074793866" width="100%" height="" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
             </div>
         </div><!-- rectangle Number.3 -->
       </div><!-- content -->
       <div class="footer">
         <div class="container">
-          <p class="copyright text-muted small text-center lfont100" >Copyright &copy; monolith.tech 2015. All Rights Reserved</p>
+          <p class="copyright text-muted small text-center lfont100" >Copyright &copy; monolith.tech 2015-2016. All Rights Reserved</p>
         </div><!-- container -->
       </div><!-- footer -->
     </div><!-- all_content -->
